@@ -131,7 +131,7 @@ class IqiyiSpider(object):
 
   def craw(self):
     step = 0
-    while step < 10000:
+    while step < 20000:
       if step % 1000 == 0:
         print("---------process %d url" % step)
 
